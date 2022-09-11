@@ -72,7 +72,7 @@ header li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #9ef4c9;
+    background-image: linear-gradient(225deg, #78f4b5, #0c8079, #78f4b5);
 }
 
 .formulario {
