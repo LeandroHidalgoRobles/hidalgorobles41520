@@ -99,10 +99,6 @@ footer {
 
 .mainProductos {
     display: grid;
-    grid-template-columns: 260px 260px;
-    grid-template-rows: 260px 260px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
     background-image: linear-gradient(225deg, #0c8079, #78f4b5);
 }
 
@@ -130,13 +126,5 @@ footer {
         height: 100vh;
     
     
-    }
-
-    .mainProductos {
-        display: grid;
-        grid-template-columns: 260px;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        background-image: linear-gradient(225deg, #0c8079, #78f4b5);
     }
 }
