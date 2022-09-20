@@ -110,8 +110,17 @@ footer {
     padding: 10px;
 }
 
-.mainProductos img:hover {
-    transform: scale(105%);
+nav .row {
+    background-color: #0c8079;
+    padding: 3px;
+}
+
+.row section a {
+    background-color: #78f4b5;
+    color: #0c8079;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 1px;
 }
 
 @media screen and (max-width: 479px) {
@@ -128,3 +137,4 @@ footer {
     
     }
 }
+
