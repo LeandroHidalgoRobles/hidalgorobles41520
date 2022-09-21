@@ -1,140 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
-
-* {
-    font-family: 'Patua One', cursive;
-    margin: 0px;
-}
-
-.bodyIndex {
-    display: grid;
-    grid-template-areas:
-        "headerIndex"
-        "mainIndex"
-        "footerIndex";
-    grid-template-rows: 35% auto 20%;
-    height: 100vh;
-
-
-}
-
-.headerIndex {
-    grid-area: headerIndex;
-}
-
+/* @import "./partials/variables"; */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap");
 .footerIndex {
-    grid-area: footerIndex;
-}
-
-body{
-    padding: 0;
-}
-
-
-header {
-    background-color: #78f4b5;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-    background-color: #0c8079;
-    padding: 10px;
-    margin: 0;
-    border: 0;
-    justify-content: space-evenly;
-}
-
-header li a {
-    /* font-family: 'Fredoka One', cursive; */
-    background-color: #78f4b5;
-    color: #0c8079;
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 1px;
-}
-
-.mainInicio section {
-    grid-area: mainIndex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    background-image: url("../img/index.png");
-}
-
-.mainInicio p {
-    font-size: 19px;
-}
-
-.mainSucursales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(225deg, #78f4b5, #0c8079, #78f4b5);
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-left: 5%;
+  grid-area: footerIndex;
 }
 
 footer {
-    background-color: #78f4b5;
-    color: #0c8079;
+  background-color: #78f4b5;
+  color: #0c8079;
+}
+
+.headerIndex {
+  grid-area: headerIndex;
+}
+
+header {
+  background-color: #78f4b5;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  background-color: #0c8079;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  justify-content: space-evenly;
+}
+header li a {
+  background-color: #78f4b5;
+  color: #0c8079;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 1px;
 }
 
 .iconosHeader {
-    display: flex;
-    justify-content:space-between
-}
-
-.boton {
-    width: 130px;
-    flex-direction: row;
-}
-
-.mainProductos {
-    display: grid;
-    background-image: linear-gradient(225deg, #0c8079, #78f4b5);
-}
-
-.mainProductos img {
-    transition: all 0.5s;
-}
-
-.mainProductos div {
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav .row {
-    background-color: #0c8079;
-    padding: 3px;
+  background-color: #0c8079;
+  padding: 3px;
+}
+nav .row section a {
+  background-color: #78f4b5;
+  color: #0c8079;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 1px;
 }
 
-.row section a {
-    background-color: #78f4b5;
-    color: #0c8079;
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 1px;
+.mainInicio section {
+  grid-area: mainIndex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url("../img/index.png");
+}
+.mainInicio p {
+  font-size: 19px;
+}
+
+.mainSucursales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(225deg, #78f4b5, #0c8079, #78f4b5);
+}
+
+.mainProductos {
+  display: grid;
+  background-image: linear-gradient(225deg, #0c8079, #78f4b5);
+}
+.mainProductos div {
+  padding: 10px;
+}
+
+.bodyIndex {
+  display: grid;
+  grid-template-areas: "headerIndex" "mainIndex" "footerIndex";
+  grid-template-rows: 35% auto 20%;
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-left: 5%;
+}
+
+.boton {
+  width: 130px;
+  flex-direction: row;
+}
+
+* {
+  font-family: "Patua One", cursive;
+  margin: 0px;
 }
 
 @media screen and (max-width: 479px) {
-    
-    .bodyIndex {
-        display: grid;
-        grid-template-areas:
-            "headerIndex"
-            "mainIndex"
-            "footerIndex";
-        grid-template-rows: 40% auto 20%;
-        height: 100vh;
-    
-    
-    }
-}
-
+  .bodyIndex {
+    display: grid;
+    grid-template-areas: "headerIndex" "mainIndex" "footerIndex";
+    grid-template-rows: 40% auto 20%;
+    height: 100vh;
+  }
+}/*# sourceMappingURL=styles.css.map */

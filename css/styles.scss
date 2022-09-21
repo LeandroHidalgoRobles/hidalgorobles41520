@@ -1,0 +1,28 @@
+/* @import "./partials/variables"; */
+@import "./partials/footer";
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/body";
+@import "./partials/form";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&display=swap');
+
+* {
+    font-family: 'Patua One', cursive;
+    margin: 0px;
+}
+
+@media screen and (max-width: 479px) {
+    
+    .bodyIndex {
+        display: grid;
+        grid-template-areas:
+            "headerIndex"
+            "mainIndex"
+            "footerIndex";
+        grid-template-rows: 40% auto 20%;
+        height: 100vh;
+    
+    
+    }
+}

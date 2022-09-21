@@ -1,0 +1,15 @@
+.bodyIndex {
+    display: grid;
+    grid-template-areas:
+        "headerIndex"
+        "mainIndex"
+        "footerIndex";
+    grid-template-rows: 35% auto 20%;
+    height: 100vh;
+
+
+}
+
+body{
+    padding: 0;
+}

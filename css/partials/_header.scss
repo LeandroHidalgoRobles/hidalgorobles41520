@@ -1,0 +1,47 @@
+.headerIndex {
+    grid-area: headerIndex;
+}
+
+header {
+    background-color: $verdeClaro;
+    ul {
+        display: flex;
+        list-style: none;
+        background-color: $verdeOscuro;
+        padding: 10px;
+        margin: 0;
+        border: 0;
+        justify-content: space-evenly;
+    }
+    li {
+        a {
+            background-color: $verdeClaro;
+    color: $verdeOscuro;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 1px;
+        }
+    }
+}
+
+.iconosHeader {
+    display: flex;
+    justify-content:space-between
+}
+
+nav {
+    .row {
+        background-color: $verdeOscuro;
+        padding: 3px;
+        section {
+            a {
+                background-color: $verdeClaro;
+                color: $verdeOscuro;
+                font-size: 18px;
+                border-radius: 5px;
+                padding: 1px;
+            }
+        }
+    }
+
+}
