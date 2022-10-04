@@ -1,7 +1,6 @@
 @mixin boton($tamano, $colorFondo) {
     margin: 5px;
     width: $tamano;
-    padding: $tamano;
     background-color: $colorFondo;
 
 }
