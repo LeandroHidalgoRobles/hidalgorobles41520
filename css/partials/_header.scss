@@ -3,11 +3,11 @@
 }
 
 header {
-    background-color: $verdeClaro;
+    background-color: map-get($color, verdeClaro);
     ul {
         display: flex;
         list-style: none;
-        background-color: $verdeOscuro;
+        background-color: map-get($color, verdeOscuro);
         padding: 10px;
         margin: 0;
         border: 0;
@@ -15,8 +15,8 @@ header {
     }
     li {
         a {
-            background-color: $verdeClaro;
-    color: $verdeOscuro;
+            background-color: map-get($color, verdeClaro);
+    color: map-get($color, verdeOscuro);
     font-size: 18px;
     border-radius: 5px;
     padding: 1px;
@@ -31,12 +31,12 @@ header {
 
 nav {
     .row {
-        background-color: $verdeOscuro;
+        background-color: map-get($color, verdeOscuro);
         padding: 3px;
         section {
             a {
-                background-color: $verdeClaro;
-                color: $verdeOscuro;
+                background-color: map-get($color, verdeClaro);
+                color: map-get($color, verdeOscuro);
                 font-size: 18px;
                 border-radius: 5px;
                 padding: 1px;

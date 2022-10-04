@@ -1,11 +1,14 @@
 .formulario {
-    display: flex;
-    flex-direction: column;
+    @extend %flexColumna;
     width: 33%;
     margin-left: 5%;
 }
 
-.boton {
-    width: 130px;
-    flex-direction: row;
+.botonUno {
+    @include boton($tamano: 130, $colorFondo: map-get($color, verdeClaro));
+    
+}
+
+.botonDos {
+    @include boton($tamano: 150, $colorFondo: map-get($color, verdeOscuro));
 }

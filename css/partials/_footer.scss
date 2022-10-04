@@ -3,6 +3,6 @@
 }
 
 footer {
-    background-color: $verdeClaro;
-    color: $verdeOscuro;
+    background-color: map-get($color, verdeClaro) ;
+    color: map-get($color, verdeOscuro);
 }
